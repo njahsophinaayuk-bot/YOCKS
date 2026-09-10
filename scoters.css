@@ -1,0 +1,1242 @@
+body {
+  font-family: Arial, sans-serif;
+  background: #f2f2f2;
+  text-align: center;
+  margin-top: 80px;
+ 
+  
+}
+
+.head{
+    background-color: #061B36;
+
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+
+  margin-left: 0;
+ 
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 80px;
+  
+
+  
+}
+
+.nav-div{
+   background-color: #061B36;
+   border-bottom: 4px solid yellow;
+    position: fixed;
+   
+    left: 0;
+    width: 100%;
+    z-index: 1000;
+  margin-left: 0;
+ flex-wrap: wrap;
+  color: white;
+  text-decoration: none;
+
+}
+
+
+.blue{
+    color:#009DFF;
+     
+    font-size: 20px;
+}
+.yellow{
+    color: yellow;
+    
+}
+
+.yoz{
+   display: flex;
+}
+.but{
+    margin-top:-20px ;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-end;
+   
+}
+.put{
+    margin-bottom: 70px;
+    gap: 7px;
+   
+}
+.display{
+    display: flex;
+}
+.specifications{
+    display: flex;
+    padding: 10px;
+    justify-content: space-evenly;
+}
+.view{
+    margin-left: 170px;
+    margin-top: 30px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 5px  10px;
+    background:#fff;
+    color: burlywood;
+   box-shadow: 2px 2px 4px black;
+    cursor: pointer;
+    transition:transform 0.3s ease;
+}
+.view:hover{
+    cursor: pointer;
+ padding: 6px 11px; 
+}
+
+
+.yoz-btn{
+  margin-left: 170px;
+  margin-right: 30px;
+    margin-top: 30px;
+    border: 1px solid yellow;
+    border-radius: 5px;
+    padding: 5px  10px;
+    background:#fff;
+    color: burlywood;
+    box-shadow: 2px 2px 4px black;
+}
+
+
+.yoz-btn:hover{
+   
+    padding: 6px 11px;
+    
+}
+
+.pic-a{
+    background-position: center;
+}
+.prop-pics{
+    height: 40px;
+    margin-bottom: 5000PX;
+    
+  
+    
+    border-radius: 7px;
+}
+
+#lo{
+    border-bottom:4px solid yellow ;
+    border-radius: 2px;
+}
+
+.div-style:hover{
+    border-top: 4px solid #061B36;
+  border-left: 4px solid #061B36;
+}
+.img-logo{
+  height:20px;
+  border-radius: 7px;
+}
+.img-pay{
+    height:30px;
+  border-radius: 7px;
+}
+.log{
+    display: flex;
+    margin-left: 5px;
+    gap: 7px;
+    margin-bottom: 0px;
+}
+
+
+#paypal-button-container{
+    flex: 0 0 auto;
+}
+
+.yozma::before{
+    content: "";
+  position: absolute;
+  top: -0px;
+  left: 0px;
+  width: 4px;
+  height: 60px;
+ bottom: 0px;
+  border-radius: 12px 0 0 8px;
+}
+
+nav{
+ display: flex;
+   justify-content: space-around;
+}
+
+.nav-links{
+    text-decoration: none;
+    align-items:stretch;
+    color: yellow;
+    font-size: 20px;
+    font-weight: 20px;
+    margin-bottom: 20px;
+    
+
+    
+}
+
+.nav-links:hover{
+    font-size: 21px;
+   height: -20px;
+    
+   
+
+
+}
+
+.logo-div{
+    text-align: left;
+    display: flex;
+    gap: 20px;
+    background-color: #061B36;
+    
+}
+h1{
+    font: 20px;
+    color: #080000;
+    height: 40px;
+}
+
+.logo{
+    text-align: left;
+    font-size: 40px;
+    color: #061B36;
+      text-shadow: 5px 3px 0px whitesmoke;
+
+}
+
+.logo-pic{
+    width: 60px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #f2f2f2;
+}
+
+h1{
+    color: #333;
+}
+
+.scooter-card{
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+/* MAIN YOZMA PHOTO */
+.main-pic{
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-pic:hover{
+    transform: scale(1.05);
+}
+
+
+.image-box {
+  position: relative;
+  display: inline-block;
+}
+
+.image-box img {
+  width: 300px;
+  border-radius: 12px;
+  display: block;
+}
+
+/* Top-left corner */
+.image-box::before {
+  content: "";
+  position: absolute;
+  top: -8px;
+  left: -8px;
+  width: 60px;
+  height: 60px;
+  border-top: 4px solid #f4c400;
+  border-left: 4px solid #f4c400;
+  border-radius: 12px 0 0 0;
+}
+
+
+
+
+.yozma::after {
+  
+  
+  top: -8px;
+  right: -8px;
+  width: 60px;
+  height: 60px;
+  border-bottom: 4px solid #f4c400;
+  border-right: 4px solid #f4c400;
+  border-radius: 0 0 12px 0;
+  
+}
+.kurkin-g{
+    display: flex;
+    margin-left: 530px;
+}
+.kukirin{
+     display: flex;
+    margin-left: 530px;
+}
+
+
+
+ 
+
+/* CLOSE BUTTON */
+.close{
+    color: white;
+    font-size: 50px;
+    font-weight: bold;
+    position: absolute;
+    top: 15px;
+    right: 35px;
+    cursor: pointer;
+}
+
+.close:hover{
+    color: #0A9DFF;
+}
+
+
+/* MAIN VIPCOO PHOTO */
+.main-pic-vip{
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.main-pic-eg{
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+
+.main-pic-vip:hover{
+    transform: scale(1.05);
+}
+
+.main-pic-eg:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+.main-pic-vip{
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-pic-vip:hover{
+    transform: scale(1.05);
+}
+
+
+
+.main-pic-ravvi{
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-pic-ravvi:hover{
+    transform: scale(1.05);
+}
+
+
+.scooter-card{
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    width: 300px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.1);
+}
+
+
+/* MAIN SUN PHOTO */
+.main-pic-sun{
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-pic-sun:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+.main-pic-revx{
+    width: 200px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.main-pic-revx:hover{
+    transform: scale(1.05);
+}
+
+
+
+
+
+
+
+
+
+
+
+#btn{
+    padding: 10px;
+    margin-left: 1200px;
+    margin-bottom: 50px;
+    background-color: #222;
+    text-emphasis: none;
+    
+}
+#btn:hover{
+    padding: 12px 12px;
+}
+.btn{
+    text-decoration: none;
+    color: aqua;
+}
+/* =====================================================
+   CONTACT / ORDER POPUP
+   Hidden until ORDER NOW is clicked.
+===================================================== */
+
+.contain{
+    display: none;
+
+    position: fixed;
+    top: 50%;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    max-width: 1000px;
+    height: 85vh;
+
+    padding: 30px;
+
+    background: #061B36;
+
+   border-radius: 20px;
+
+    
+    border:2px solid #0A9DFF;
+    
+   
+   
+
+    box-shadow: 0 10px 30px rgba(0,0,0,0.5);
+
+    z-index: 10000;
+
+    overflow-y: auto;
+    box-sizing: border-box;
+
+   
+}
+
+
+.contain {
+    border-radius: 20px;
+    overflow-y: auto;
+    overflow-x: hidden;
+
+    /* Helps the browser render the rounded popup smoothly */
+    transform: translate3d(-50%, -50%, 0);
+    will-change: transform;
+}
+.contain::before{
+content: "";
+}
+.contain::-webkit-scrollbar{
+    display: none;
+}
+/* Close button for the contact/order popup */
+.close-order{
+    position: absolute;
+    top: 10px;
+    right: 15px;
+
+    border: none;
+    background: none;
+
+    font-size: 35px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+.div-style{
+   
+    padding: 20px;
+    background:#fff;
+  border-top: 3px solid #061B36;
+  border-left: 3px solid #061B36;
+
+ 
+  border-radius: 12px;
+  margin: 20px auto;
+   width: 500px;
+  min-height:300px;
+  height: auto;
+ margin-left: 500px;
+
+
+  
+box-shadow: 0 4px 12px rgba(0,0,0,0.08);
+
+}
+
+
+
+.div-st{
+    max-width: 800px;
+  
+  
+    
+   
+    
+   
+}
+
+.flex-box{
+    display: flex;
+    align-items: flex-start;
+    margin-top: 100px;
+   gap: 500px;
+
+   
+    
+
+
+    }
+
+
+.email,
+.city{
+    display: flex;
+    margin: 20px;
+    gap: 30px;
+}
+.email > div{
+    flex: 1;
+}
+.city > div{
+    flex: 1;
+}
+.alone{
+    margin:20px 0;
+    
+}
+
+
+.form-row {
+    display: flex;
+    gap: 20px;
+    width: 100%;
+}
+
+.form-row > div {
+    flex: 1;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.form-row input,
+.full-width input,
+.full-width textarea {
+    width: 100%;
+    box-sizing: border-box;
+}
+
+
+/* Mobile */
+@media (max-width: 600px) {
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+}
+
+.send-btn{
+  width:100%;
+  height: 56px;
+  max-width: 100%;
+  padding:15px  100px;
+  border: 2PX solid #0A9DFF;
+  border-radius:30px;
+  margin-top:20px;
+  background-color: #00C2FF;
+}
+
+
+.send-btn:hover{
+  transform:scale(1.03);
+  transition:0.3s;
+  border-top:3px solid black;
+  border-bottom:1px solid black;
+
+  
+}
+
+.pay {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 5px;
+    width: 100%;
+    flex-wrap: nowrap;
+}
+
+.po {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 5px;
+}
+
+.pay-pal,
+.pay-btn,
+.pay-cash,
+.pay-bt {
+    background: #0B2A52;
+    border: none;
+    padding: 20px 60px;
+    margin: 5px;
+    border-radius: 15px;
+    font-size: 17px;
+    flex: 0 0 auto;
+    box-sizing: border-box;
+}
+
+.pay-pal {
+      padding: 38px 60px;
+    color: blue;
+}
+
+.pay-btn {
+     padding: 38px 60px;
+    color: #080000;
+}
+
+.pay-cash {
+      padding: 38px 60px;
+    color: forestgreen;
+}
+
+.pay-bt {
+      padding: 38px 80px;
+    color: rgb(110, 4, 196);
+}
+.pay-btn:hover{
+    border: 2px solid black;
+   
+    
+}
+
+.apple{
+  display: flex;
+ align-items: center;
+    gap: 10px;
+}
+.pay-pal:hover{
+ border: 2px solid   blue;
+ 
+}
+.pay-cash:hover{
+  
+    border: 2px solid #22c55e;
+}
+.pay-bt:hover{
+    
+    border:2px solid #8b5cf6;
+}
+.form-card{
+    overflow-y: auto;
+    scrollbar-width: none;
+    -ms-overflow-style: none;
+}
+.form-card::-webkit-scrollbar{
+    display: none;
+}
+
+
+
+
+.contain label{
+  display:block;
+  margin-top:15px;
+  margin-bottom:8px;
+  font-weight:bold;
+  color:#333;
+}
+
+.contain input,
+.contain textarea{
+  width:100%;
+  padding:15px;
+  border:2px solid #009DFF;
+  border-radius:10px;
+  font-size:16px;
+  outline:none;
+  box-sizing:border-box;
+  background: #0B2A52;
+}
+
+.contain textarea{
+  height:150px;
+  resize:none;
+}
+
+.details-popup{
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,0.75);
+    z-index: 9999;
+    overflow-y: auto;
+    padding: 30px;
+    box-sizing: border-box;
+}
+.details-box{
+    position: relative;
+    width: 90%;
+    max-width: 1100px;
+    margin: 40px auto;
+    background: white;
+    border-radius: 20px;
+    padding: 30px;
+    display: flex;
+    gap: 40px;
+    box-sizing: border-box;
+
+}
+.close-details{
+    position: absolute;
+    top: 15px;
+    right: 20px;
+    border: none;
+    background: none;
+    font-size: 35px;
+    cursor: pointer;
+    z-index: 10;
+} 
+.details-images{
+    width: 50%;
+    min-width: 0;
+    overflow: hidden;
+}
+.details-main-pic{
+    width: 100%;
+    max-width: 100%;
+    height: 400px;
+    object-fit: contain;
+    border-radius: 15px;
+    display: block;
+}
+.details-thumbnails{
+    display: flex;
+    gap: 10px;
+    margin-top: 15px;
+    overflow-x: auto;
+    max-width: 100%;
+    padding-bottom: 5px;
+}
+
+.details-thumbnails img{
+   width: 80px;
+   height: 70px;
+   min-width: 80px;
+   object-fit: cover;
+   border-radius: 10px;
+   cursor: pointer;
+   border: 2px solid #ddd;
+   box-sizing: border-box;
+}
+.details-thumbnails img:hover{
+    border: 2px solid yellow;
+}
+
+.details-info{
+    width: 50%;
+    min-width: 0;
+    padding: 20px;
+    box-sizing: border-box;
+}
+.details-description{
+    font-size: 18px;
+    line-height: 1.6;
+}
+
+.details-specs{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap:15px;
+    margin-top: 30px;
+}
+.details-specs div{
+    padding: 15px;
+    border-radius: 12px;
+    background: white;
+    box-sizing: border-box;
+
+    border-top: 4px solid yellow;
+    border-left: 4px solid yellow;
+    box-shadow: 2px 2px 6px rgba(0,0,0,0.15);
+
+    transition: 0.3s ease;
+}
+
+.details-specs div:hover{
+    border-color: #061B36;
+    transform: translateY(-3px);
+    box-shadow: 3px 4px 10px rgba(0,0,0,0.2);
+}
+.details-specs p{
+    margin: 0;
+}
+.div-style > img{
+    display: none;
+}
+.div-style >.close{
+    display: none;
+}
+
+@media (max-width:768px) {
+    .details-popup{
+        padding: 15px;
+    }
+    .details-box{
+        width: 100%;
+        margin: 20px auto;
+        padding: 20px;
+        display: block;
+        overflow: hidden;
+    }
+    .details-images{
+        width: 100%;
+    }
+    .details-info{
+        width: 100%;
+        padding: 10px;
+    }
+    .details-main-pic{
+        height: 280px;
+        width: 100%;
+
+    }
+    .details-info h1{
+        font-size:30px;
+    }
+    .details-specs{
+        grid-template-columns: 1fr 1fr;
+    }
+}  
+
+/* =====================================================
+   ORDER NOW BUTTON
+   Styles the yellow ORDER NOW button in the popup.
+===================================================== */
+
+.order-now-btn {
+    width: 100%;
+    padding: 15px;
+    margin-top: 20px;
+    border: none;
+    border-radius: 10px;
+    background:#cccc00;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    box-sizing: border-box;
+    display: block;
+}
+
+
+/* =====================================================
+   CLOSE BUTTONS
+   Black normally, yellow when hovered.
+===================================================== */
+
+/* Product details close button */
+.close-details {
+    color: black;
+    transition: 0.2s;
+}
+
+/* Contact/order close button */
+.close-order {
+    color: black;
+    transition: 0.2s;
+}
+
+/* Turn yellow when touched/hovered */
+.close-order:hover {
+    color: #0A9DFF;
+    transform: scale(1.15);
+}
+.close-details:hover{
+    color: yellow;
+     transform: scale(1.15);
+}
+
+/* =========================================
+   IMAGE ARROWS
+   ========================================= */
+
+.main-image-container {
+    position: relative;
+    width: 100%;
+}
+
+.image-arrow {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    
+    width: 45px;
+    height: 45px;
+    
+    border: none;
+    border-radius: 50%;
+    
+    background: rgba(255, 255, 255, 0.9);
+    color: black;
+    
+    font-size: 30px;
+    font-weight: bold;
+    
+    cursor: pointer;
+    z-index: 5;
+    
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    box-shadow: 0 2px 6px rgba(0,0,0,0.3);
+}
+
+.left-arrow {
+    left: 10px;
+}
+
+.right-arrow {
+    right: 10px;
+}
+
+.image-arrow:hover {
+    background: #061B36;
+    color: black;
+    transform: translateY(-50%) scale(1.08);
+}
+
+/* =========================================
+   ADD TO CART BUTTON
+   ========================================= */
+
+/* ================================
+   POPUP ADD TO CART BUTTON
+================================ */
+
+.add-cart-btn {
+    width: auto;
+    background: #061B36;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    border-color:#061B36;
+    font-size: 11px;
+    font-weight: bold;
+    cursor: pointer;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease,transform 0.3s ease;
+}
+
+
+
+.details-info .order-now-btn:hover{
+    background:yellow;
+    color: white;
+      transform: translateY(-2px);
+}
+
+
+ .add-cart-btn:hover{
+    background-color: #0b2a4A;
+    transform: translateY(-2px);
+}
+
+.add-cart-btn:active {
+    transform: translateY(0);
+}
+.yoz .add-cart-btn{
+    width: auto;
+    padding: 6px 10px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+
+
+
+/* =========================================
+   MAIN PAGE VIEW + ADD TO CART BUTTONS
+   ========================================= */
+
+
+
+
+
+/* Main page Add To Cart size */
+
+
+
+/* Keep the popup Add To Cart full width */
+.details-info .add-cart-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    margin-top: 20px;
+}
+.details-info .order-now-btn{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.add-cart {
+    background: #061B36;
+    color: white;
+    border: none;
+    padding: 6px 10px;
+    border-radius: 5px;
+    font-size: 11px;
+    font-weight: bold;
+    margin-left: 10px;
+    margin-top: 3px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: background-color 0.3 ease transform 0.3s ease;
+}
+
+/* When the mouse touches the button */
+.add-cart:hover {
+    background: #0b2a4A;
+   transform: translateY(-2px);
+}
+
+/* When the button is clicked */
+.add-cart:active {
+    transform: scale(0.96);
+}
+.yoz-btn,
+.view,
+.add-cart{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+
+.yoz-but{
+  display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+  
+}
+
+
+.but,
+.put{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    flex-wrap: wrap;
+    margin-left: 30px;
+}
+.add-cart-btn{
+     margin-left: 10px;
+    margin-top: 3px;
+}
+
+/* Keep the hover appearance after clicking */
+.pay-pal.selected {
+    border: 2px solid rgb(80, 80, 250);
+    background-color: rgb(224, 243, 250);
+}
+
+.pay-btn.selected {
+    border: 2px solid black;
+    background-color: #dad7d7;
+}
+
+.pay-cash.selected{
+    background-color: #e8f8ee;
+    border: 2px solid #22c55e;
+}
+.pay-bt.selected{
+    background-color: #f3e8ff;
+    border:2px solid #8b5cf6;
+}
+/* Selected picture in the View Details gallery */
+.details-thumbnails img {
+    border: 3px solid transparent;
+    cursor: pointer;
+    transition: 0.2s;
+}
+
+/* Yellow border around the currently selected picture */
+.details-thumbnails img.selected-thumbnail {
+    border: 3px solid #ffd000;
+}
+
+
+
+
+
+/* =====================================================
+   VIEW DETAILS POPUP
+===================================================== */
+
+#details-popup {
+    position: fixed;
+    z-index: 1000;
+}
+
+
+/* =====================================================
+   ORDER FORM POPUP
+   MUST APPEAR ABOVE VIEW DETAILS
+===================================================== */
+
+.contain {
+    position: fixed;
+    z-index: 9999;
+}
+/* =========================================
+   BUTTONS UNDER PRODUCT PICTURES
+========================================= */
+
+.details-images {
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+}
+
+.details-images .details-thumbnails {
+    flex-shrink: 0;
+}
+
+.details-images .add-cart-btn {
+    width: 100%;
+    margin: 20px 0 0 0;
+    box-sizing: border-box;
+}
+
+.details-images .order-now-btn {
+    width: 100%;
+    margin: 15px 0 0 0;
+    box-sizing: border-box;
+}
+
+.details-action-buttons {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    width: 100%;
+    gap: 10px;
+    margin-top: 15px;
+}
+
+.details-action-buttons .add-cart-btn {
+    width: 100%;
+    padding: 14px;
+    font-size: 17px;
+    margin: 0;
+}
+
+.details-action-buttons .order-now-btn {
+    width: 100%;
+    padding: 15px;
+    font-size: 17px;
+    margin-top: 10px;
+}
+/* =========================================
+   POPUP BUTTON HOVER EFFECTS
+========================================= */
+
+.details-action-buttons .add-cart-btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.details-action-buttons .add-cart-btn:hover {
+    background-color: #0b2a4A;
+    transform: translateY(-2px);
+}
+
+.details-action-buttons .add-cart-btn:active {
+    transform: translateY(0);
+}
+
+
+.details-action-buttons .order-now-btn {
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.details-action-buttons .order-now-btn:hover {
+    background: yellow;
+    color: white;
+    transform: translateY(-2px);
+}
+
