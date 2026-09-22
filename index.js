@@ -6,7 +6,7 @@ const products = {
 
     yozma: {
         name: "Yozma IN10",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£1500",
         speed: "40Mph",
         range: "23.4Ah",
         motor: "2600W",
@@ -27,7 +27,8 @@ const products = {
 
     vipcoo: {
         name: "Vipcoo H3",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£1500",
+     
         speed: "40Mph",
         range: "48V 23Ah",
         motor: "3500W",
@@ -47,11 +48,12 @@ const products = {
 
     revvi: {
         name: "Revvi 20",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£1000",
+     
         speed: "40Mph",
         range: "9 miles",
         motor: "500W",
-        Battery: "36v/5.2Ah",
+        Battery: "36v/7.5Ah",
         load: "50kg",
         chargingTime: "2hrs",
         images: [
@@ -63,10 +65,11 @@ const products = {
     },
 
     voltz: {
-        name: "Volltz",
-        description: "Powerfull performance meets smooth city rides.",
+        name: "Voltz",
+         price:"£750",
+  
         speed: "39Mph",
-        range: "43 miles max",
+        range: "43 miles",
         motor: "3500W",
         images: [
             "images/volts kids/IMG-20260806-WA0042(1).jpg",
@@ -81,7 +84,8 @@ const products = {
 
     surron: {
         name: "Surron Light Bee X",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£1600",
+  
         speed: "74Km/h",
         range: "75 Km",
         motor: "8 Kw",
@@ -99,7 +103,8 @@ const products = {
 
     engwe: {
         name: "Engwe EP-2 Pro",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£600",
+        
         speed: "15Mph",
         range: "75 miles",
         motor: "750W",
@@ -119,7 +124,8 @@ const products = {
 
     revx: {
         name: "Revvi 16 XL",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£700",
+        
         speed: "20mph",
         range: "9 miles",
         motor: "500W",
@@ -138,12 +144,13 @@ const products = {
 
     sur: {
         name: "Sur Ron Ultra Bee",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£2500",
+        
         speed: "59Mph",
         range: "80km",
         motor: "74V",
         Battery: "74v/60Ah",
-        chargingTime: "2.5-4.5",
+        chargingTime: "2-4hrs",
         weight: "85kg",
         images: [
             "images/Sur-Ron/IMG-20260730-WA0044.jpg",
@@ -160,7 +167,8 @@ const products = {
 
     ravvi: {
         name: "Ravvi 24",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£1599",
+        
         speed: "30Mph",
         range: "20 miles",
         motor: "74V",
@@ -180,7 +188,8 @@ const products = {
 
     g4max: {
         name: "Kukirin G4 Max",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£1500",
+        
         speed: "43mph",
         range: "46 miles",
         motor: "2000W",
@@ -196,12 +205,60 @@ const products = {
         ]
     },
 
+
+
+
+ m4pro: {
+        name: "Kukirin M4 Pro",
+         price:"£450",
+        
+        speed: "48km/h",
+        range: "55 miles",
+        motor: "500W",
+        miles: "35miles",
+        weight: "37kg",
+        images: [
+            "images/kukirin M4 Pro/IMG-20260913-WA0039.jpg",
+            "images/kukirin M4 Pro/IMG-20260913-WA0040.jpg",
+            "images/kukirin M4 Pro/IMG-20260913-WA0041.jpg",
+            "images/kukirin M4 Pro/IMG-20260913-WA0042.jpg",
+            "images/kukirin M4 Pro/IMG-20260913-WA0043.jpg"
+        ]
+    },
+
+
+
+
+
+g2max: {
+        name: "Kukirin G2 Max",
+         price:"£700",
+        
+        speed: "34mph",
+        range: "45 miles",
+        motor: "1000W",
+        maxload: "120kg",
+        chargingTime: "11hrs",
+        weight: "31kg",
+        images: [
+            "images/kukirin G2 Max/IMG-20260913-WA0057.jpg",
+            "images/kukirin G2 Max/IMG-20260913-WA0058.jpg",
+            "images/kukirin G2 Max/IMG-20260913-WA0059.jpg",
+            "images/kukirin G2 Max/IMG-20260913-WA0062.jpg",
+            "images/kukirin G2 Max/IMG-20260913-WA0061.jpg"
+        ]
+    },
+
+
+
+
     g2master: {
-        name: "Kukirin G2 Master",
-        description: "Powerfull performance meets smooth city rides.",
+        name: "Kukirin G2 ",
+         price:" £800",
+        
         speed: "38MPH",
         range: "44 miles",
-        motor: "20000W",
+        motor: "2000W",
         battery: "48v/15Ah",
         chargingTime: "8-9hrs",
         waterproof: "IP54",
@@ -217,7 +274,8 @@ const products = {
 
     g2pro: {
         name: "Kukirin G2 Pro",
-        description: "Powerfull performance meets smooth city rides.",
+         price:" £599",
+        
         speed: "28mph",
         range: "28 miles",
         motor: "600W",
@@ -231,13 +289,63 @@ const products = {
             "images/kukirin G2 pro/IMG-20260730-WA0011.jpg",
             "images/kukirin G2 pro/IMG-20260730-WA0012.jpg",
             "images/kukirin G2 pro/IMG-20260730-WA0013.jpg",
+            "images/kuKirin G2 Pro/IMG-20260730-WA0015(1).jpg",
             "images/kukirin G2 pro/IMG-20260730-WA0014.jpg"
         ]
     },
 
+
+
+ g3pro: {
+        name: "Kukirin G3 Pro",
+         price:"£1000",
+        
+        speed: "40mph",
+        range: "80km",
+        motor: "600W",
+        Battery: "52V",
+        load: "120kg",
+        chargingTime: "4-11hrs",
+        waterproof: "IP54",
+        weight: "39.6kg",
+        images: [
+            "images/kukirin G3 Pro/IMG-20260813-WA0012.jpg",
+            "images/kukirin G3 Pro/IMG-20260813-WA0013.jpg",
+            "images/kukirin G3 Pro/IMG-20260813-WA0014.jpg",
+            "images/kukirin G3 Pro/IMG-20260813-WA0017.jpg",
+            "images/kukirin G3 Pro/IMG-20260813-WA0019.jpg",
+            "images/kukirin G3 Pro/IMG-20260813-WA0020.jpg"
+        ]
+    },
+
+
+
+shb: {
+        name: "Surron Hyber Bee",
+         price:"£2000",
+        
+        speed: "40mph",
+        range: "35miles",
+        motor: "8000W",
+        Battery: "58v/22Ah",
+        load: "55kg",
+        chargingTime: "2hrs",
+        waterproof: "IP67",
+        weight: "39kg",
+        images: [
+            "images/Surron Hyber bee/IMG-20260917-WA0171.jpg",
+            "images/Surron Hyber bee/IMG-20260917-WA0172.jpg",
+            "images/Surron Hyber bee/IMG-20260917-WA0179.jpg",
+            "images/Surron Hyber bee/IMG-20260917-WA0180.jpg",
+            
+        ]
+    },
+
+
     g2: {
-        name: "Kukirin G2",
-        description: "Powerfull performance meets smooth city rides.",
+        name: "Kukirin G2 Master",
+         price:" £500",
+        
         speed: "30mph",
         range: "30 miles",
         motor: "800W",
@@ -254,9 +362,32 @@ const products = {
         ]
     },
 
+
+ g4: {
+        name: "Kukirin G4",
+         price:"£899",
+        
+        speed: "43mph",
+        range: "46 miles",
+        motor: "2000W",
+        Battery: "60v20Ah",
+        chargingTime: "10-12hrs",
+        waterproof: "IP×5",
+        weight: "37kg",
+        images: [
+            "images/kukirin G4/IMG-20260913-WA0047.jpg",
+            "images/kukirin G4/IMG-20260913-WA0050.jpg",
+            "images/kukirin G4/IMG-20260913-WA0052.jpg",
+            "images/kukirin G4/IMG-20260913-WA0054.jpg",
+            "images/kukirin G4/WhatsApp Image 2026-09-13 at 4.45.33 AM.jpeg"
+        ]
+    },
+
+
     s1max: {
         name: "Kukirin S1 Max",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£300",
+        
         speed: "15.5mph",
         range: "10.5Ah",
         motor: "350W",
@@ -273,11 +404,34 @@ const products = {
         ]
     },
 
+
+ dirt: {
+        name: "X1 Spark Electric Dirt Bike",
+         price:"£650",
+        
+        speed: "50mph",
+        range: "60miles",
+        motor: "4500W",
+        Battery: "60v 28.8Ah",
+        load: "150kg",
+        chargingTime: "4-6hrs",
+        weight: "53kg",
+        images: [
+            "images/X1 Spark Electric Dirt Bike/IMG-20260917-WA0175.jpg",
+            "images/X1 Spark Electric Dirt Bike/IMG-20260917-WA0176.jpg",
+            "images/X1 Spark Electric Dirt Bike/IMG-20260917-WA0177.jpg",
+            "images/X1 Spark Electric Dirt Bike/IMG-20260917-WA0178.jpg"
+        ]
+    },
+
+
+
     aovo: {
         name: "Aovo Pro Mini80",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£200",
+        
         speed: "N/A",
-        range: "4.5Ah",
+        range: "4.5miles",
         motor: "N/A",
         Battery: "42v",
         chargingTime: "4-5hrs",
@@ -291,7 +445,8 @@ const products = {
 
     aovoes: {
         name: "Aovo Pro ES Max",
-        description: "Powerfull performance meets smooth city rides.",
+         price:"£450",
+        
         speed: "22mph",
         range: "14.5Ah",
         motor: "500W",
@@ -308,7 +463,7 @@ const products = {
     }
 };
 
-
+{}
 /* =====================================================
    VARIABLES
 ===================================================== */
@@ -356,15 +511,15 @@ function openDetails(productName) {
     if (title) {
         title.textContent = product.name;
     }
+    const price =
+    popup.querySelector(".details-price");
+if (price) {
+    price.textContent = product.price;
+}
 
 
-    const description =
-        document.querySelector(".details-description");
 
-    if (description) {
-        description.textContent = product.description;
-    }
-
+   
 
     /* =================================================
        PRODUCT SPECIFICATIONS
@@ -378,6 +533,7 @@ function openDetails(productName) {
         specsBox.innerHTML = "";
 
         const excluded = [
+            "price",
             "name",
             "description",
             "images"
@@ -515,6 +671,7 @@ function updateDetailsImage() {
     });
 
 }
+
 
 
 /* =====================================================
@@ -700,7 +857,7 @@ function choosePayment(button, payment) {
 
     document
         .querySelectorAll(
-            ".pay-btn, .pay-pal, .pay-bt, .pay-cash"
+            ".pay-btn, .pay-pal, .pay-bank, .pay-bt, .pay-cash"
         )
         .forEach(function(btn) {
 
@@ -787,6 +944,8 @@ function addToCart(productName) {
 
             image: selectedImage,
 
+            price:product.price,
+
             quantity: 1
 
         });
@@ -824,6 +983,13 @@ function addToCart(productName) {
 }
 
 
+
+
+
+
+
+
+
 /* =====================================================
    UPDATE ADD TO CART BUTTONS
 ===================================================== */
@@ -831,7 +997,7 @@ function addToCart(productName) {
 function updateCartButtons() {
 
     const buttons =
-        document.querySelectorAll(".add-cart-btn");
+        document.querySelectorAll(".add-cart,  .add-cart-btn");
 
     buttons.forEach(function(button) {
 
@@ -1093,20 +1259,25 @@ function sendOrderToWhatsApp() {
 
     cart.forEach(function(item, index) {
 
-        orderMessage +=
-            (index + 1) +
-            ". " +
-            item.name +
-            " × " +
-            item.quantity +
-            "\n";
+    orderMessage +=
+        (index + 1) +
+        ". " +
+        item.name +
+        " × " +
+        item.quantity +
+        "\n";
 
-        orderMessage +=
-            "Selected picture: " +
-            item.image +
-            "\n\n";
+    orderMessage +=
+        "Price: " +
+        item.price +
+        "\n";
 
-    });
+    orderMessage +=
+        "Selected picture: " +
+        item.image +
+        "\n\n";
+
+});
 
 
     /* =========================================
@@ -1163,6 +1334,9 @@ window.location.href = whatsappURL;
 }
 
 
+
+
+
 /* =====================================================
    INITIAL CART BUTTON UPDATE
 ===================================================== */
@@ -1170,8 +1344,68 @@ window.location.href = whatsappURL;
 document.addEventListener(
     "DOMContentLoaded",
     function() {
+         
 
         updateCartButtons();
+        
 
     }
 );
+
+function sendOrderByEmail() {
+
+    if (cart.length === 0) {
+        alert("Your cart is empty.");
+        return;
+    }
+
+    const name = document.getElementById("name").value.trim();
+    const phone = document.getElementById("Number").value.trim();
+    const email = document.getElementById("email").value.trim();
+    const address = document.getElementById("address").value.trim();
+    const zip = document.getElementById("zip").value.trim();
+    const country = document.getElementById("country").value.trim();
+    const city = document.getElementById("city").value.trim();
+    const message = document.getElementById("message").value.trim();
+
+    if (!name || !phone || !email || !address || !zip || !country || !city) {
+        alert("Please fill in all required fields.");
+        return;
+    }
+
+    if (!selectedPayment) {
+        alert("Please select a payment method.");
+        return;
+    }
+
+    let orderMessage = "YOCKS ORDER\n\n";
+
+    orderMessage += "Customer: " + name + "\n";
+    orderMessage += "Phone: " + phone + "\n";
+    orderMessage += "Email: " + email + "\n";
+    orderMessage += "Address: " + address + "\n";
+    orderMessage += "ZIP: " + zip + "\n";
+    orderMessage += "City: " + city + "\n";
+    orderMessage += "Country: " + country + "\n\n";
+
+    orderMessage += "ORDER:\n";
+
+    cart.forEach(function(item) {
+        orderMessage += "Product: " + item.name + "\n";
+        orderMessage += "Price: " + item.price + "\n";
+        orderMessage += "Image: " + item.image + "\n\n";
+    });
+
+    orderMessage += "Payment: " + selectedPayment + "\n";
+
+    if (message) {
+        orderMessage += "Message: " + message + "\n";
+    }
+
+    const emailURL =
+        "mailto:bankdelivery04@gmail.com" +
+        "?subject=" + encodeURIComponent("YOCKS Order") +
+        "&body=" + encodeURIComponent(orderMessage);
+
+    window.location.href = emailURL;
+}

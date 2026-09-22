@@ -66,12 +66,12 @@ body {
 
 
 .blue{
-    color:#009DFF;
+    color:yellow;
      
     font-size: 20px;
 }
 .yellow{
-    color: yellow;
+    color: black;
     
 }
 
@@ -87,6 +87,7 @@ body {
 }
 .put{
     margin-bottom: 70px;
+    margin-left: 0;
     gap: 7px;
    
 }
@@ -94,9 +95,24 @@ body {
     display: flex;
 }
 .specifications{
-    display: flex;
-    padding: 10px;
-    justify-content: space-evenly;
+display: flex;
+justify-content: center;
+   align-items: flex-start;
+   gap: 20px;
+   text-align: center;
+   width: 100%;
+}
+.specifications > div{
+    flex: 1;
+    text-align: center;
+}
+.specifications .log{
+    justify-content: center;
+    text-align: center;
+}
+.specifications p{
+    text-align: center;
+    margin-top: 10px;
 }
 .view{
     margin-left: 170px;
@@ -157,7 +173,7 @@ body {
   border-left: 4px solid #061B36;
 }
 .img-logo{
-  height:20px;
+  height:23px;
   border-radius: 7px;
 }
 .img-pay{
@@ -331,7 +347,7 @@ h1{
 }
 
 .close:hover{
-    color: #0A9DFF;
+    color: yellow;
 }
 
 
@@ -367,12 +383,6 @@ h1{
 
 
 
-.main-pic-vip{
-    width: 200px;
-    border-radius: 10px;
-    cursor: pointer;
-    transition: 0.3s;
-}
 
 .main-pic-vip:hover{
     transform: scale(1.05);
@@ -480,7 +490,7 @@ h1{
    border-radius: 20px;
 
     
-    border:2px solid #0A9DFF;
+    border:2px solid #041225;
     
    
    
@@ -535,8 +545,9 @@ content: "";
 
  
   border-radius: 12px;
+  width: min(550px, 100%);
   margin: 20px auto;
-   width: 500px;
+   width: 550px;
   min-height:300px;
   height: auto;
  margin-left: 500px;
@@ -561,7 +572,9 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 
 .flex-box{
     display: flex;
+    flex-direction: column;
     align-items: flex-start;
+    width: 100%;
     margin-top: 100px;
    gap: 500px;
 
@@ -615,20 +628,26 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 /* Mobile */
 @media (max-width: 600px) {
     .form-row {
+        display: flex;
         flex-direction: column;
         gap: 0;
+    }
+
+    .form-row > div {
+        width: 100%;
     }
 }
 
 .send-btn{
-  width:100%;
+  width:90%;
   height: 56px;
-  max-width: 100%;
+  max-width: 90%;
   padding:15px  100px;
-  border: 2PX solid #0A9DFF;
+  border: 2PX solid black;
   border-radius:30px;
   margin-top:20px;
-  background-color: #00C2FF;
+  margin-left: 25px;
+  background-color: #041225;
 }
 
 
@@ -661,42 +680,51 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 .pay-pal,
 .pay-btn,
 .pay-cash,
-.pay-bt {
+.pay-bt,
+.pay-bank
+{
     background: #0B2A52;
     border: none;
-    padding: 20px 60px;
     margin: 5px;
     border-radius: 15px;
     font-size: 17px;
     flex: 0 0 auto;
     box-sizing: border-box;
 }
-
+.flex-btn{
+    gap:5px;
+}
+.pay-bank{
+   padding: 30px 52px;
+    color: #2EE7CE; 
+}
 .pay-pal {
-      padding: 38px 60px;
+     padding: 30px 52px;
     color: blue;
+    
 }
 
 .pay-btn {
-     padding: 38px 60px;
+   padding: 30px 52px;
     color: #080000;
 }
 
 .pay-cash {
-      padding: 38px 60px;
+      padding: 30px 52px;
     color: forestgreen;
 }
 
 .pay-bt {
-      padding: 38px 80px;
+      padding: 30px 72px;
     color: rgb(110, 4, 196);
 }
 .pay-btn:hover{
     border: 2px solid black;
-   
-    
+   }
+ 
+.pay-bank:hover{
+    border: 2px solid #2EE7CE;
 }
-
 .apple{
   display: flex;
  align-items: center;
@@ -708,11 +736,11 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 }
 .pay-cash:hover{
   
-    border: 2px solid #22c55e;
+    border: 2px solid forestgreen;
 }
 .pay-bt:hover{
     
-    border:2px solid #8b5cf6;
+    border:2px solid  rgb(110, 4, 196);
 }
 .form-card{
     overflow-y: auto;
@@ -738,7 +766,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 .contain textarea{
   width:100%;
   padding:15px;
-  border:2px solid #009DFF;
+  border:2px solid #041225;
   border-radius:10px;
   font-size:16px;
   outline:none;
@@ -829,10 +857,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     padding: 20px;
     box-sizing: border-box;
 }
-.details-description{
-    font-size: 18px;
-    line-height: 1.6;
-}
+
 
 .details-specs{
     display: grid;
@@ -937,9 +962,27 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     transition: 0.2s;
 }
 
+.send-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.send-mail {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.send-icon {
+    color: #080000;
+    font-size: 28px;
+    line-height: 1;
+}
 /* Turn yellow when touched/hovered */
 .close-order:hover {
-    color: #0A9DFF;
+    color: yellow;
     transform: scale(1.15);
 }
 .close-details:hover{
@@ -1087,7 +1130,7 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     margin-top: 3px;
     cursor: pointer;
     margin-top: 10px;
-    transition: background-color 0.3 ease transform 0.3s ease;
+    transition: background-color 0.3 ease, transform 0.3s ease;
 }
 
 /* When the mouse touches the button */
@@ -1134,22 +1177,24 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
 
 /* Keep the hover appearance after clicking */
 .pay-pal.selected {
-    border: 2px solid rgb(80, 80, 250);
-    background-color: rgb(224, 243, 250);
+    border: 2px solid blue ;
+    
 }
 
 .pay-btn.selected {
     border: 2px solid black;
-    background-color: #dad7d7;
+   
 }
-
+.pay-bank.selected{
+    border: 2px solid #2EE7CE;
+}
 .pay-cash.selected{
-    background-color: #e8f8ee;
-    border: 2px solid #22c55e;
+    
+    border: 2px solid forestgreen
 }
 .pay-bt.selected{
-    background-color: #f3e8ff;
-    border:2px solid #8b5cf6;
+    
+    border:2px solid  rgb(110, 4, 196);
 }
 /* Selected picture in the View Details gallery */
 .details-thumbnails img {
@@ -1260,6 +1305,12 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     background: yellow;
     color: white;
     transform: translateY(-2px);
+}
+.details-price{
+    color: #ffd700;
+    font-size: 32px;
+    font-weight: bold;
+    margin: 10px;
 }
 /* =========================================
    RESPONSIVE DESIGN
@@ -1593,9 +1644,6 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
         font-size: 25px;
     }
 
-    .details-description {
-        font-size: 14px;
-    }
 
     .details-specs {
         grid-template-columns: 1fr 1fr;
@@ -1619,4 +1667,277 @@ box-shadow: 0 4px 12px rgba(0,0,0,0.08);
     }
 
 }
+.main-pic,
+.main-pic-vip,
+.main-pic-eg,
+.main-pic-sun,
+.main-pic-revx,
+.main-pic-ravvi,
+.main-pic-sun {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+@media (max-width: 600px) {
+    .main-pic,
+    .main-pic-vip,
+    .main-pic-eg,
+    .main-pic-sun,
+    .main-pic-revx,
+    .main-pic-ravvi {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+}
+/* =====================================================
+   FINAL RESPONSIVE FIXES
+===================================================== */
+
+* {
+    box-sizing: border-box;
+}
+
+html,
+body {
+    width: 100%;
+    max-width: 100%;
+    overflow-x: hidden;
+}
+
+.flex-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    gap: 20px;
+}
+
+.div-style {
+    width: min(550px, 100%);
+    max-width: 100%;
+    margin: 20px auto;
+}
+
+@media (max-width: 1024px) {
+
+    .flex-box {
+        width: 100%;
+        gap: 20px;
+    }
+
+    .div-style {
+        width: min(700px, 95%);
+        margin: 20px auto;
+    }
+
+}
+
+@media (max-width: 600px) {
+
+    body {
+        width: 100%;
+        margin-top: 110px;
+        padding: 0 8px;
+    }
+
+    .head {
+        width: 100%;
+        padding: 8px;
+    }
+
+    .logo {
+        font-size: 28px;
+    }
+
+    .logo-pic {
+        width: 45px;
+        height: 45px;
+    }
+
+    .nav-div {
+        width: 100%;
+    }
+
+    .nav-links {
+        font-size: 14px;
+    }
+
+    .flex-box {
+        width: 100%;
+        gap: 15px;
+    }
+
+    .div-style {
+        width: 100%;
+        max-width: 100%;
+        margin: 10px auto;
+        padding: 15px;
+    }
+
+    .yoz {
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .main-pic,
+    .main-pic-vip,
+    .main-pic-eg,
+    .main-pic-sun,
+    .main-pic-revx,
+    .main-pic-ravvi {
+        width: 100%;
+        max-width: 250px;
+        height: auto;
+    }
+
+    .put,
+    .but {
+        width: 100%;
+        margin: 0;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .specifications {
+        width: 100%;
+        gap: 4px;
+    }
+
+    .specifications > div {
+        min-width: 0;
+    }
+
+    .specifications p {
+        font-size: 13px;
+    }
+
+    .log {
+        font-size: 12px;
+    }
+
+    .img-logo {
+        width: 20px;
+        height: 20px;
+    }
+
+    .yoz-btn,
+    .view,
+    .add-cart {
+        margin: 4px;
+        padding: 10px 12px;
+        font-size: 13px;
+    }
+
+    /* ORDER WINDOW */
+
+    .contain {
+        width: 95%;
+        max-width: 500px;
+        height: 90vh;
+        padding: 18px;
+    }
+
+    .form-row {
+        flex-direction: column;
+        gap: 0;
+    }
+
+    .form-row > div {
+        width: 100%;
+    }
+
+    .contain input,
+    .contain textarea {
+        width: 100%;
+    }
+
+    /* PAYMENT */
+
+    .pay {
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 6px;
+    }
+
+    .po {
+        display: contents;
+    }
+
+    .pay-pal,
+    .pay-btn,
+    .pay-bank,
+    .pay-cash,
+    .pay-bt {
+        flex: 1 1 0;
+        min-width: 0;
+        padding: 12px 8px;
+        font-size: 12px;
+    }
+
+    /* SEND BUTTONS */
+
+    .send-btn {
+        width: 100%;
+        max-width: 100%;
+        padding: 14px;
+    }
+
+    /* DETAILS POPUP */
+
+    .details-popup {
+        padding: 10px;
+    }
+
+    .details-box {
+        width: 100%;
+        margin: 10px auto;
+        padding: 12px;
+        display: block;
+    }
+
+    .details-images,
+    .details-info {
+        width: 100%;
+    }
+
+    .details-main-pic {
+        width: 100%;
+        height: 220px;
+        object-fit: contain;
+    }
+
+    .details-info {
+        padding: 5px;
+    }
+
+    .details-info h1 {
+        font-size: 25px;
+    }
+
+
+
+    .details-specs {
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .details-action-buttons {
+        width: 100%;
+    }
+
+    .details-action-buttons button {
+        width: 100%;
+    }
+
+    .details-thumbnails {
+        width: 100%;
+        overflow-x: auto;
+    }
+}
+
 
