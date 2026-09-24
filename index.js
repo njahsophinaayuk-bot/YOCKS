@@ -252,7 +252,7 @@ g2max: {
 
 
 
-    g2master: {
+    g2: {
         name: "Kukirin G2 ",
          price:" £800",
         
@@ -276,21 +276,20 @@ g2max: {
         name: "Kukirin G2 Pro",
          price:" £599",
         
-        speed: "28mph",
-        range: "28 miles",
-        motor: "600W",
-        Battery: "48v/12Ah",
-        load: "120kg",
-        chargingTime: "7-8hrs",
-        waterproof: "IP54",
-        weight: "28kg",
+        speed: "30mph",
+        range: "30 miles",
+        motor: "800W",
+        Battery: "48v15Ah",
+        chargingTime: "8-9hrs",
+        waterproof: "IP45",
+        weight: "25kg",
         images: [
-            "images/kukirin G2 pro/IMG-20260730-WA0010(1).jpg",
-            "images/kukirin G2 pro/IMG-20260730-WA0011.jpg",
-            "images/kukirin G2 pro/IMG-20260730-WA0012.jpg",
-            "images/kukirin G2 pro/IMG-20260730-WA0013.jpg",
-            "images/kuKirin G2 Pro/IMG-20260730-WA0015(1).jpg",
-            "images/kukirin G2 pro/IMG-20260730-WA0014.jpg"
+            "images/kukirin G2 Master/IMG-20260731-WA0015.jpg",
+            "images/kukirin G2 Master/IMG-20260731-WA0016.jpg",
+            "images/kukirin G2 Master/IMG-20260731-WA0017.jpg",
+            "images/kukirin G2 Master/IMG-20260731-WA0018.jpg",
+            "images/kukirin G2 Master/IMG-20260731-WA0019.jpg"
+
         ]
     },
 
@@ -342,23 +341,23 @@ shb: {
     },
 
 
-    g2: {
+    g2master: {
         name: "Kukirin G2 Master",
          price:" £500",
-        
-        speed: "30mph",
-        range: "30 miles",
-        motor: "800W",
-        Battery: "48v15Ah",
+
+         speed: "38MPH",
+        range: "44 miles",
+        motor: "2000W",
+        battery: "48v/15Ah",
         chargingTime: "8-9hrs",
-        waterproof: "IP45",
+        waterproof: "IP54",
         weight: "25kg",
         images: [
-            "images/kukirin G2 Master/IMG-20260731-WA0015.jpg",
-            "images/kukirin G2 Master/IMG-20260731-WA0016.jpg",
-            "images/kukirin G2 Master/IMG-20260731-WA0017.jpg",
-            "images/kukirin G2 Master/IMG-20260731-WA0018.jpg",
-            "images/kukirin G2 Master/IMG-20260731-WA0019.jpg"
+            "images/kukirin G2/IMG-20260730-WA0009.jpg",
+            "images/kukirin G2/IMG-20260730-WA0004.jpg",
+            "images/kukirin G2/IMG-20260730-WA0005.jpg",
+            "images/kukirin G2/IMG-20260730-WA0007.jpg",
+            "images/kukirin G2/IMG-20260730-WA0008.jpg"
         ]
     },
 
