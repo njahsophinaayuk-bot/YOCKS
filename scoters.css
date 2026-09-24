@@ -151,7 +151,7 @@ justify-content: center;
 }
 .prop-pics{
     height: 40px;
-    margin-bottom: 5000PX;
+    margin-bottom: 20PX;
     border-radius: 7px;
 }
 
@@ -491,7 +491,7 @@ h1{
 
     z-index: 10000;
 
-    overflow-y: auto;
+    
     box-sizing: border-box;
 
    
@@ -2093,10 +2093,35 @@ body {
     }
 
 }
-html,
-body {
-    height: auto;
-    min-height: 100%;
-    overflow-x: hidden;
+/* =====================================================
+   FINAL ORDER POPUP SCROLL FIX
+===================================================== */
+
+.contain {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    width: 90%;
+    max-width: 1000px;
+    height: 85vh;
+
     overflow-y: auto;
+    overflow-x: hidden;
+
+    box-sizing: border-box;
+    -webkit-overflow-scrolling: touch;
+}
+
+@media (max-width: 600px) {
+    .contain {
+        width: 95%;
+        height: 90vh;
+
+        overflow-y: scroll;
+        overflow-x: hidden;
+
+        -webkit-overflow-scrolling: touch;
+    }
 }
