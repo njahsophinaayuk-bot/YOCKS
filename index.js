@@ -254,7 +254,7 @@ g2max: {
 
     g2: {
         name: "Kukirin G2 ",
-         price:" £800",
+         price:" £500",
         
         speed: "38MPH",
         range: "44 miles",
@@ -343,7 +343,7 @@ shb: {
 
     g2master: {
         name: "Kukirin G2 Master",
-         price:" £500",
+         price:" £800",
 
          speed: "38MPH",
         range: "44 miles",
